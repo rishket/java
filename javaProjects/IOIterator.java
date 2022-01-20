@@ -1,11 +1,3 @@
-package com.vogella.eclipse.ide.first;
-
-//AUTHOR: Rishi Vadrevu
-//FILENAME: Lab10
-//SPECIFICATION: Read input files and iterate them through array.
-//FOR: CSE 110 - Lab #10
-//TIME SPENT: 1.5 hours
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
