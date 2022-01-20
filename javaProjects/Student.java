@@ -1,5 +1,3 @@
-package com.vogella.eclipse.ide.first;
-
 public class Student {
 	private String Fullname, asuID;
 	private int numOfUpdates;
