@@ -1,11 +1,3 @@
-// Assignment #: 
-// Name: 
-// StudentID: 
-// Lecture Time: 
-// Description: Assignment 10 class displays a menu of choices to a user
-//        and performs the chosen task. It will keep asking a user to
-//      enter the next choice until the choice of 'Q' (Quit) is entered.
-
 import java.io.*;
 
 public class IOPractice
