@@ -1,22 +1,8 @@
-// Assignment #7: Arizona State University CSE205
-//          Name:
-//     StudentID:
-//       Lecture: (MWF 8:00am)
-//   Description: CirclePane class creates a pane where we can use
-//                mouse key to drag on canvass and there will be some color following
-//                the mouse. We can also use combo boxes to change its colors and stroke widths
-//                //--- is where you need to add your own code
-
-//import any necessary classes here
-//----
 import javafx.geometry.Insets;
 import javafx.scene.layout.*;
 
 public class CirclePane extends BorderPane
 {
-    //instance variables - check assignment's description
-    //----
-
     private ComboBox<String> primaryColorCombo;
     private ComboBox<String> bgColorCombo;
     private ComboBox<String> widthCombo;
@@ -28,38 +14,14 @@ public class CirclePane extends BorderPane
     //constructor
     public CirclePane()
     {
-        //Step #1: Initialize instance varibles and set up the layout
-		//----
-
-
-
-        //Instantiate the two dimensional circleArray that contains
-        //6 columns and 6 rows of circles (36 in total)
-        //----
-
-        //instantiate canvas and set its width and height
         canvas = new GridPane();
         canvas.setPrefWidth(2*RADIUS * NUM_COL);
         canvas.setPrefHeight(2*RADIUS * NUM_ROW);
 
-        //Use nested loop to instantiate the 6 columns by 6 rows of
-        //Circle objects, add them inside the circleArrary
-        //----
-        //----
-
-        //leftPane is a VBox, it should contain labels and the 3 comboBox
         VBox leftPane = new VBox();
         leftPane.setSpacing(20);
         leftPane.setPadding(new Insets(10, 10, 10, 10));
         leftPane.setStyle("-fx-border-color: black");
-        //----
-
-        //add leftPane and canvas to CirclePane
-        //----
-
-        //Step 3: register the source nodes with its handler objects
-        //----
-
     }
 
     //Step #2(A) - MouseHandler
