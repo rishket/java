@@ -1,12 +1,3 @@
-// Assignment #: 10
-//         Name: Soln
-//    StudentID:
-//  Lab Lecture:
-//      Section:
-//  Description: The LinkedList defines a linked list using its node class
-//  object and also defines a iterator class to traverse the linked list.
-
-
 import java.util.NoSuchElementException;
 
 /**
