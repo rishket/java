@@ -13,7 +13,7 @@ import java.io.IOException;
 
 // Accompanied by Student.java
 
-public class Lab10 {
+public class IOIterator {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		final int NUM_STUDENTS = 10;
