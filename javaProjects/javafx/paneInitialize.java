@@ -1,17 +1,9 @@
-// Assignment #7: Arizona State University CSE205
-//          Name:
-//     StudentID:
-//       Lecture: (MWF 8:00am)
-//   Description: The Assignment7 class creates a CirclePane object
-//                on which we can draw circles with different
-//                colors.
-
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 
-public class Assignment7 extends Application
+public class paneInitialize extends Application
 {
     public void start(Stage primaryStage)
     {
