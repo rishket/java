@@ -2,11 +2,7 @@ package com.vogella.eclipse.ide.first;
 
 import java.util.Arrays;
 
-//CSE 110
-//Assignment: 6
-// Author: Rishi Vadrevu
-// Description: Assignment6.java
-public class Assignment6 {
+public class arrayOps {
 
 	public static void main(String[] args) {
 		int[] array = {23, 45, 25, 56, 75, 87};
