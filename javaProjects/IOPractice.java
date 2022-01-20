@@ -8,7 +8,7 @@
 
 import java.io.*;
 
-public class Assignment11
+public class IOPractice
  {
   public static void main (String[] args) throws IOException
    {
